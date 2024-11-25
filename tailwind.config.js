@@ -11,7 +11,10 @@ export default {
     extend: {
       boxShadow: {
         '3xl': "10px 10px black"
-      }
+      },
+      colors: {
+        customRed: '#FF7264', 
+      },
     },
   },
   plugins: [],

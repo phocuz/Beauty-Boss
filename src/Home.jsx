@@ -6,7 +6,9 @@ import facebook from "./assets/facebook.png";
 import instagram from "./assets/instagram.png";
 import youtube from "./assets/youtube.png";
 import smile from "./assets/smile.png";
+import bag from "./assets/Bag.png";
 import { Link } from 'react-router-dom';
+
 
 function Home() {
   const [progress, setProgress] = useState(0);
@@ -108,9 +110,9 @@ function Home() {
        </Link>
 
         <img 
-          src={smile} 
+          src={bag} 
           alt="Smile" 
-          className="w-16 md:w-24 h-auto mt-8" 
+          className="w-16 md:w-24 h-auto mt-8 hidden sm:flex" 
         />
       </div>
 
